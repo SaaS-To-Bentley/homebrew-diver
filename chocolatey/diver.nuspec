@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by Diver's release workflow on every release; an edit here is
+     overwritten by the next one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>diver</id>
+    <version>1.0.0.315</version>
+    <packageSourceUrl>https://github.com/SaaS-To-Bentley/homebrew-diver/tree/main/chocolatey</packageSourceUrl>
+    <owners>Diver</owners>
+    <title>Diver</title>
+    <authors>Diver</authors>
+    <projectUrl>https://usediver.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/SaaS-To-Bentley/homebrew-diver@main/icon.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>diver deeplinks deep-links uri adb android developer-tools</tags>
+    <summary>Build, launch and document deeplinks.</summary>
+    <description><![CDATA[Diver builds a URI from its parts, sends it to a phone, an emulator or the desktop itself, and keeps a history of what opened.
+
+- **Build** a URI as text or as scheme, host, path and query parameters, kept in sync both ways.
+- **Send** it to an Android device or emulator over `adb`, to another Diver on the network, or to any device on your Diver account.
+- **Keep** the deeplinks your apps support, per organization and environment, and check that their hosted link files are in place.
+
+Diver can download Android's platform-tools for you if `adb` is not installed.
+]]></description>
+    <releaseNotes>https://github.com/SaaS-To-Bentley/homebrew-diver/releases/tag/v1.0.0-315</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
