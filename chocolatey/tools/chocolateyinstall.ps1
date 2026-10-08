@@ -6,8 +6,8 @@ $appDir = Join-Path $toolsDir 'Diver'
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   unzipLocation  = $appDir
-  url64bit       = 'https://github.com/SaaS-To-Bentley/homebrew-diver/releases/download/v1.0.0-315/Diver-1.0.0-315-windows-x64.zip'
-  checksum64     = 'a71e0fe00804424db3816ab821055f767a1deb420349af933fdc67f4a6f5e671'
+  url64bit       = 'https://github.com/SaaS-To-Bentley/homebrew-diver/releases/download/v1.0.0-333/Diver-1.0.0-333-windows-x64.zip'
+  checksum64     = 'd4d7eb2d5898ba3489fbeac7dde6265e2fefbf3264a889a3a9e516cda5b8e450'
   checksumType64 = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs

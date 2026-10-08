@@ -4,7 +4,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>diver</id>
-    <version>1.0.0.315</version>
+    <version>1.0.0.333</version>
     <packageSourceUrl>https://github.com/SaaS-To-Bentley/homebrew-diver/tree/main/chocolatey</packageSourceUrl>
     <owners>Diver</owners>
     <title>Diver</title>
@@ -22,7 +22,7 @@
 
 Diver can download Android's platform-tools for you if `adb` is not installed.
 ]]></description>
-    <releaseNotes>https://github.com/SaaS-To-Bentley/homebrew-diver/releases/tag/v1.0.0-315</releaseNotes>
+    <releaseNotes>https://github.com/SaaS-To-Bentley/homebrew-diver/releases/tag/v1.0.0-333</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
